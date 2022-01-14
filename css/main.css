@@ -412,19 +412,19 @@ body {
 .grid-list__title--01::before {
   width: 33px;
   height: 50px;
-  background-image: url(../../images/icon1.png);
+  background-image: url(../images/icon1.png);
 }
 
 .grid-list__title--02::before {
   width: 50px;
   height: 50px;
-  background-image: url(../../images/icon2.png);
+  background-image: url(../images/icon2.png);
 }
 
 .grid-list__title--03::before {
   width: 44px;
   height: 50px;
-  background-image: url(../../images/icon3.png);
+  background-image: url(../images/icon3.png);
 }
 
 .grid-list__text {
