@@ -299,6 +299,7 @@ body {
 }
 
 .container {
+  width: 100%;
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
@@ -306,17 +307,17 @@ body {
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
     padding-left: 36px;
     padding-right: 36px;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .container {
-    width: 1200px;
-    padding-left: 75px;
-    padding-right: 75px;
+    max-width: 1280px;
+    padding-left: 115px;
+    padding-right: 115px;
   }
 }
 
@@ -329,7 +330,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .grid-list {
     margin-right: -30px;
   }
@@ -349,7 +350,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .grid-list__item {
     width: calc((100% - 3 * 30px) / 3);
     margin-right: 30px;
@@ -378,7 +379,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .grid-list__title, .grid-list__title--01, .grid-list__title--02, .grid-list__title--03 {
     font-weight: 400;
     font-size: 58px;
@@ -403,7 +404,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .grid-list__title::before, .grid-list__title--01::before, .grid-list__title--02::before, .grid-list__title--03::before {
     margin-bottom: 40px;
   }
@@ -443,7 +444,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .grid-list__text {
     font-weight: 700;
     font-size: 16px;
