@@ -1,0 +1,19 @@
+body {
+  font-family: DM Sans, sans-serif;
+  background-color: $background-color;
+  color: $main-text-color;
+}
+
+.advantages__list-grid {
+  margin-top: 0;
+  margin-bottom: 97px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 140px;
+  }
+}
+
+.next {
+  background-color: teal;
+  //   width: fit-content;
+}

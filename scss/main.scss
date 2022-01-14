@@ -1,13 +1,8 @@
-*,
-*::before,
-*::after {
-  // outline: 1px solid red;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-// @import "./variables";
-// @import "./base";
-// @import "./components";
-@import "./components/something";
+@import './base/normalize';
+@import './base/reset';
+@import './utils/variables';
+@import './utils/mixins';
+@import './utils/vis-hidden';
+@import './layout/body';
+@import './components/container';
+@import './components/grid-list';
