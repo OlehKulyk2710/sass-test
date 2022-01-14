@@ -1,0 +1,35 @@
+.container {
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.list {
+  @include centeredFlex($jc: center);
+}
+
+.item {
+  @include centeredFlex($jc: flex-start);
+  margin-right: 5px;
+  width: 100px;
+  height: 100px;
+}
+
+.item:nth-child(1) {
+  @include bcolor(red);
+}
+
+.item:nth-child(2) {
+  @include bcolor(blue);
+}
+.item:nth-child(3) {
+  @include bcolor(green);
+}
+
+.item:nth-child(2) {
+  color: violet;
+}
+
+.item:nth-child(3) {
+  font-size: 26px;
+}
