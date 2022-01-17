@@ -100,3 +100,91 @@
     @include font($fw: 700, $fs: 16px, $lh: 1.76, $ls: 0.02em);
   }
 }
+
+.next {
+  margin-bottom: 50px;
+}
+
+.header {
+  background-color: $background-ice-color;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid white;
+  z-index: 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__item {
+  margin-right: 35px;
+  z-index: 100;
+}
+
+.content {
+  background-color: $background-ice-color;
+  // width: 100vh;
+  height: 360px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  // z-index: 1;
+  overflow-x: hidden;
+}
+
+.ellipse__img {
+  position: absolute;
+  top: 10px;
+  right: -50px;
+  // clip: rect(auto, 50px, auto, auto);
+}
+
+.icecream__img {
+  position: absolute;
+  top: 20px;
+  right: 48px;
+}
+
+.content__bkg {
+  height: 400px;
+  background-color: $background-ice-color;
+  background-image: url(../../images/heder-ice-cream-tab.png), url(../../images/Ellipse-tab.png);
+
+  background-repeat: no-repeat;
+  // background-size: 200px 200px, 100px 200px;
+  background-position: right top -20px, right -50px top 50px;
+  z-index: 200;
+}
+
+.background {
+  background-color: $background-ice-color;
+  height: 500px;
+  position: relative;
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  // z-index: -1;
+}
+
+.menu {
+  width: 100%;
+  background-color: white;
+}
+
+.content__bkg02 {
+  height: 400px;
+  background-color: $background-ice-color;
+  background-image: url(../../images/heder-ice-cream-tab.png), url(../../images/Ellipse-tab.png);
+
+  background-repeat: no-repeat;
+  // background-size: 200px 200px, 100px 200px;
+  background-position: right top -20px, right -50px top 50px;
+  z-index: 200;
+}
